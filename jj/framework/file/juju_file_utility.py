@@ -2,7 +2,7 @@ import os.path
 import json
 from typing import IO
 
-initial_path = "./"
+initial_path = "../"
 
 
 def path_builder(*paths: str):
