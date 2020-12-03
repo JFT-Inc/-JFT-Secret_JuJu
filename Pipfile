@@ -11,7 +11,6 @@ cython = "*"
 pyopengl = "*"
 pyopengl-accelerate = "*"
 glumpy = "*"
-pyopengltk = "*"
 
 [requires]
 python_version = "3.9"

@@ -6,7 +6,7 @@ import OpenGL.GL.shaders
 import ctypes
 import types
 import numpy
-import pyopengltk
+from pyopengltk import *
 import sys
 import time
 if sys.version_info[0] > 2:
@@ -115,7 +115,7 @@ def rot(a, b, c):
     return numpy.dot(numpy.dot(am, bm), cm)
 
 
-class ShaderFrame(pyopengltk.OpenGLFrame):
+class ShaderFrame(OpenGLFrame):
 
     def initgl(self):
         # GLUT.glutInit(sys.argv)
