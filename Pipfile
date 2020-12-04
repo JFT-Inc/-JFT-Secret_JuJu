@@ -7,10 +7,10 @@ verify_ssl = true
 
 [packages]
 numpy = "==1.19.3"
-cython = "*"
 pyopengl = "*"
 pyopengl-accelerate = "*"
-glumpy = "*"
+cython = "==0.29.21"
+glfw = "*"
 
 [requires]
 python_version = "3.9"
